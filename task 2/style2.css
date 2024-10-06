@@ -1,0 +1,68 @@
+/* Style untuk halaman Pendaftaran dan Detail Informasi Pendaftar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #333;
+    color: rgb(214, 127, 13);
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cac9c9;
+    background-color: #dfdfdf;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style untuk halaman Informasi Pendaftar */
+p {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Selector tambahan (minimal 3) */
+#nama {
+    font-weight: bold;
+}
+
+#email {
+    color: #0073e6;
+}
+
+#usia {
+    font-size: 18px;
+}
+
+#password {
+    font-size: 18px;
+}
